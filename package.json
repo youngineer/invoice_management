@@ -1,0 +1,59 @@
+{
+  "name": "swipe_assignment",
+  "version": "1.0.0",
+  "description": "My swipe internship assignment",
+  
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "clear-and-start": "npm cache clean --force && rimraf dist && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngineer/swipe_assignment.git"
+  },
+  "keywords": [
+    "Swipe",
+    "Kartik"
+  ],
+  "author": "Kartik S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngineer/swipe_assignment/issues"
+  },
+  "homepage": "https://github.com/youngineer/swipe_assignment#readme",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.13.3",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@google/generative-ai": "^0.21.0",
+    "@mui/icons-material": "^6.3.1",
+    "@mui/material": "^6.3.0",
+    "@mui/x-data-grid": "^7.23.3",
+    "@mui/x-data-grid-generator": "^7.23.5",
+    "@redux-devtools/core": "^4.0.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@tanstack/react-table": "^8.20.6",
+    "exceljs": "^4.4.0",
+    "next-themes": "^0.4.4",
+    "primeflex": "^3.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-drag-drop-files": "^2.4.0",
+    "react-icons": "^5.4.0",
+    "react-pdf": "^9.2.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.28.0",
+    "reactjs-popup": "^2.0.6",
+    "redux": "^5.0.1",
+    "reselect": "^5.1.1",
+    "xls-parser": "^3.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
