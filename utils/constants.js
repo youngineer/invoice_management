@@ -92,4 +92,4 @@ export const PROMPT = `You are an intelligent file-processing system designed to
 
 Process all input data according to these specifications and generate a single, comprehensive JSON output that organizes the information into the three required tables while maintaining data integrity and consistency.`;
 
-export const RESOURCES_LINK = "https://drive.google.com/file/d/1cQnrz1_WSP35wJ4K0qxxovhlR6BlM1n8/view?usp=sharing";
+export const RESOURCES_LINK = "https://drive.google.com/drive/folders/1EEicYHZtT7KPPFI7EzpnD7Mx4jQQVgbr?usp=drive_link";
