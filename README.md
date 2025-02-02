@@ -1,10 +1,4 @@
 # 📊 Automated Data Extraction and Invoice Management
-
-[![Deploy to Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black.svg?style=flat-square&logo=vercel)](https://vercel.com)
-[![React](https://img.shields.io/badge/React-18.x-blue.svg?style=flat-square&logo=react)](https://reactjs.org/)
-[![Material UI](https://img.shields.io/badge/Material%20UI-5.x-purple.svg?style=flat-square&logo=mui)](https://mui.com/)
-[![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-Latest-764ABC.svg?style=flat-square&logo=redux)](https://redux-toolkit.js.org/)
-
 A powerful React.js application that revolutionizes invoice management through AI-powered data extraction, processing, and management capabilities. Built with modern technology stack and featuring a clean, intuitive interface.
 
 ## 🌟 Key Features
