@@ -1,4 +1,4 @@
-import { LOGO_URL } from "../../utils/constants";
+import { LOGO_URL, RESOURCES_LINK } from "../../utils/constants";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -42,6 +42,12 @@ const Header = () => {
             >
               Customers
             </Link>
+
+            <a 
+            className="link link-underline text-decoration:None"
+            style={{ color: "rgb(235, 211, 248)" }} target="_blank" href={RESOURCES_LINK}>
+              SAMPLE FILES
+            </a>
           </div>
         </div>
       </div>
