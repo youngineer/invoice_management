@@ -1,5 +1,6 @@
 export const LOGO_URL = "https://images.yourstory.com/cs/images/companies/Group26-1638771123879.png?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75";
-
+export const SAMPLE_FILES_LINK = "https://drive.google.com/drive/folders/1EEicYHZtT7KPPFI7EzpnD7Mx4jQQVgbr?usp=drive_link";
+export const DEMO_LINK = "https://drive.google.com/file/d/1JNbzHRth6xnFL8S1jGTdUEpiJL6ZsdTd/view?usp=drive_link";
 export const PROMPT = `You are an intelligent file-processing system designed to extract and standardize invoice data from various sources. Your goal is to generate a single, valid JSON output that organizes the data into three main tables: Invoices, Products, and Customers.
 
 **Required Output Structure:**

@@ -10,6 +10,7 @@ import { addProduct } from "../store/productSlice";
 import { addCustomer } from "../store/customerSlice";
 import { validateJsonObj } from "../services/handleAiOutput";
 import {fetchApiResult, fetchApiResultJson } from "../services/fetchApiOutput.js"
+import { DEMO_LINK, RESOURCES_LINK, SAMPLE_FILES_LINK } from "../../utils/constants.js";
 
 const fileTypes = ["JPG", "PNG", "PDF", "XLSX", "CSV"];
 
@@ -125,6 +126,22 @@ const Body = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center p-4">
+      <a 
+        href={SAMPLE_FILES_LINK}
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="text-blue-600 hover:text-blue-800 mb-2 underline"
+      >
+        Click here for Sample files
+      </a>
+      <a 
+        href={DEMO_LINK}
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="text-blue-600 hover:text-blue-800 underline"
+      >
+        Check out the demo video here
+      </a>
       <div className="flex p-2 mt-4 mb-8">
         <input
           type="text"
